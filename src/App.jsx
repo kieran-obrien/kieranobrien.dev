@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import TypewriterHeading from "./TypewriterHeading";
+import SocialIcons from "./SocialIcons";
+import Footer from "./Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,11 +13,13 @@ function App() {
       <TypewriterHeading />
       <br />
       <hr />
+      <SocialIcons />
       <div
         className={`card ${isJello}`}
         onAnimationEnd={() => setIsJello(null)} // Reset animation class after it ends
       >
         <button
+          className="count"
           onClick={() => {
             if (!isJello) {
               setCount((count) => count + 1);
@@ -26,6 +30,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Footer />
     </>
   );
 }

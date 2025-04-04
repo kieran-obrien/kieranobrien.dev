@@ -134,3 +134,7 @@ button:focus-visible {
     transform: scale3d(1, 1, 1);
   }
 }
+
+.count {
+  margin: 300px 100px;
+}

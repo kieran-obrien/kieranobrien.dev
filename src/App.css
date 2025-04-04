@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+/*body {
+  background-image: url(/public/bg.avif);
+  background-attachment: fixed;
+  background-size: auto;
+}*/
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -61,4 +67,9 @@ hr {
   50% {
     opacity: 0;
   }
+}
+
+.social-icon {
+  font-size: 3em;
+  margin: 1em;
 }
