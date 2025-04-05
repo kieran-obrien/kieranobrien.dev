@@ -3,33 +3,24 @@ import "./App.css";
 import TypewriterHeading from "./TypewriterHeading";
 import SocialIcons from "./SocialIcons";
 import Footer from "./Footer";
+import ButtonTest from "./ButtonTest";
+import Blurb from "./Blurb";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [isJello, setIsJello] = useState(null);
-
   return (
     <>
       <TypewriterHeading />
       <br />
-      <hr />
+      <hr className="mx-auto w-xs sm:w-xl" />
       <SocialIcons />
-      <div
-        className={`card ${isJello}`}
-        onAnimationEnd={() => setIsJello(null)} // Reset animation class after it ends
-      >
-        <button
-          className="count"
-          onClick={() => {
-            if (!isJello) {
-              setCount((count) => count + 1);
-              setIsJello("jello-horizontal");
-            }
-          }}
-        >
-          count is {count}
-        </button>
+      <div className="main-body flex flex-col lg:flex-row gap-8 m-5">
+        <Blurb />
+        <Blurb
+          invisible="invisible"
+          border="border-solid border-white border-2"
+        />
       </div>
+      {/*<ButtonTest />*/}
       <Footer />
     </>
   );

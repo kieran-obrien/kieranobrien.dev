@@ -47,14 +47,14 @@
   color: #888;
 }
 
-hr {
+/*hr {
   width: 30em;
   border: none;
   height: 1px;
   background-color: #ccc;
   margin: 0 auto;
 }
-
+*/
 .caret-blinking {
   animation: blink 0.5s linear infinite;
 }
@@ -69,7 +69,4 @@ hr {
   }
 }
 
-.social-icon {
-  font-size: 3em;
-  margin: 1em;
-}
+
