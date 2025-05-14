@@ -23,7 +23,7 @@ function App() {
           border="border-solid border-white border-2"
         />
       </div>
-      {/*<ButtonTest />*/}
+      <ButtonTest />
       <hr className="mx-auto w-xs sm:w-xl" />
       <SkillsSection />
       <Footer />

@@ -75,6 +75,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.skill-icon {
+  color: var(--primary);
+  /* LETS USE DIFFERENT COLOURS FOR FRONT END/BACK END ETC.*/
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
