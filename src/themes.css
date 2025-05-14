@@ -54,7 +54,7 @@
 }
 
 /* Tokyo Night Dark */
-:root.theme-tokyo-night {
+:root.theme-tokyo-dark {
   --bg: #1a1b26;
   --fg: #c0caf5;
   --primary: #7aa2f7;
