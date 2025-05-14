@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./css/app.css";
 import TypewriterHeading from "./TypewriterHeading";
 import SocialIcons from "./SocialIcons";
 import Footer from "./Footer";
