@@ -1,7 +1,7 @@
 function Blurb({ invisible, border }) {
   return (
     <p
-      className={`block m-16 leading-relaxed text-lg text-center ${invisible} ${border} text-shadow-md/70`}
+      className={`block m-16 leading-relaxed text-lg text-center ${invisible} ${border} text-shadow-md/70 text-[var(--fg)]`}
     >
       Hi, I’m Kieran — a junior software developer with a passion for building
       clean, functional, and user-focused applications. After over a decade in a

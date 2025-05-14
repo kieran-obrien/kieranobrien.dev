@@ -76,9 +76,15 @@ button:focus-visible {
 }
 
 .skill-icon {
-  color: var(--primary);
+  color: var(--secondary);
   /* LETS USE DIFFERENT COLOURS FOR FRONT END/BACK END ETC.*/
 }
+
+/*
+.skill-icon-core {
+  color: var(--primary);
+
+}*/
 
 @media (prefers-color-scheme: light) {
   :root {
