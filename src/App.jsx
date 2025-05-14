@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./css/app.css";
-import TypewriterHeading from "./TypewriterHeading";
-import SocialIcons from "./SocialIcons";
-import Footer from "./Footer";
-import ButtonTest from "./ButtonTest";
-import Blurb from "./Blurb";
-import ThemeSwitcher from "./ThemeSwitcher";
-import SkillsSection from "./SkillsSection";
+import TypewriterHeading from "./structure/TypewriterHeading";
+import SocialIcons from "./content/SocialIcons";
+import Footer from "./structure/Footer";
+import ButtonTest from "./ui/ButtonTest";
+import Blurb from "./content/Blurb";
+import ThemeSwitcher from "./ui/ThemeSwitcher";
+import SkillsSection from "./content/SkillsSection";
 
 function App() {
   return (

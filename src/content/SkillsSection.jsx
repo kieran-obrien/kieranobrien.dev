@@ -2,10 +2,20 @@ import SkillCard from "./SkillCard";
 
 const SkillsSection = () => {
   const frontend = [
-    [<i className="devicon-react-original skill-icon text-5xl"></i>, "React"],
-    [<i className="devicon-javascript-plain skill-icon text-5xl"></i>, "JavaScript"],
+    <i
+      title="React"
+      className="devicon-react-original skill-icon text-5xl"
+    ></i>,
+    <i
+      title="JavaScript"
+      className="devicon-javascript-plain skill-icon text-5xl"
+    ></i>,
+    <i
+      title="HTML"
+      className="devicon-html5-plain-wordmark skill-icon text-5xl"
+    ></i>,
   ];
-  // const frontend = [["React", '<i class="devicon-react-original"></i>'], "HTML5", "CSS3 / SCSS", "Tailwind", "Vite"];
+
   const backend = [
     "Node.js",
     "Express",

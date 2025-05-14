@@ -4,8 +4,7 @@ const SkillCard = ({ title, skills }) => (
     <ul className="space-y-1 text-sm text-muted-foreground">
       {skills.map((skill, index) => (
         <li key={index} className="font-mono">
-          {skill[0]}
-          {/*{skill[1]}*/}
+          {skill}
         </li>
       ))}
     </ul>
