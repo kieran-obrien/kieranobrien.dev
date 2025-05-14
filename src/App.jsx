@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import ButtonTest from "./ButtonTest";
 import Blurb from "./Blurb";
 import ThemeSwitcher from "./ThemeSwitcher";
+import SkillsSection from "./SkillsSection";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         />
       </div>
       {/*<ButtonTest />*/}
+      <hr className="mx-auto w-xs sm:w-xl" />
+      <SkillsSection />
       <Footer />
     </>
   );
