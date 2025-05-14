@@ -1,0 +1,98 @@
+/* Dracula */
+:root.theme-dracula {
+  --bg: #282a36;
+  --fg: #f8f8f2;
+  --primary: #bd93f9;
+  --secondary: #ff79c6;
+  --accent: #50fa7b;
+  --highlight: #8be9fd;
+  --muted: #6272a4;
+}
+
+/* Catppuccin OG */
+:root.theme-catppuccin {
+  --bg: #f5e0dc;
+  --fg: #575268;
+  --primary: #d20f39;
+  --secondary: #1e66f5;
+  --accent: #40a02b;
+  --highlight: #fe640b;
+  --muted: #acb0be;
+}
+
+/* Catppuccin Mocha */
+:root.theme-catppuccin-mocha {
+  --bg: #1e1e2e;
+  --fg: #cdd6f4;
+  --primary: #89b4fa;
+  --secondary: #f38ba8;
+  --accent: #a6e3a1;
+  --highlight: #f9e2af;
+  --muted: #585b70;
+}
+
+/* Nord Dark */
+:root.theme-nord-dark {
+  --bg: #2e3440;
+  --fg: #d8dee9;
+  --primary: #88c0d0;
+  --secondary: #81a1c1;
+  --accent: #a3be8c;
+  --highlight: #b48ead;
+  --muted: #4c566a;
+}
+
+/* Nord Light */
+:root.theme-nord-light {
+  --bg: #eceff4;
+  --fg: #2e3440;
+  --primary: #5e81ac;
+  --secondary: #81a1c1;
+  --accent: #a3be8c;
+  --highlight: #b48ead;
+  --muted: #d8dee9;
+}
+
+/* Tokyo Night Dark */
+:root.theme-tokyo-night {
+  --bg: #1a1b26;
+  --fg: #c0caf5;
+  --primary: #7aa2f7;
+  --secondary: #bb9af7;
+  --accent: #9ece6a;
+  --highlight: #ff9e64;
+  --muted: #565f89;
+}
+
+/* Tokyo Night Light */
+:root.theme-tokyo-light {
+  --bg: #d5d6db;
+  --fg: #3760bf;
+  --primary: #34548a;
+  --secondary: #c0a36e;
+  --accent: #76946a;
+  --highlight: #ffa066;
+  --muted: #a1a6c5;
+}
+
+/* Solarized Dark */
+:root.theme-solarized-dark {
+  --bg: #002b36;
+  --fg: #839496;
+  --primary: #268bd2;
+  --secondary: #2aa198;
+  --accent: #b58900;
+  --highlight: #6c71c4;
+  --muted: #586e75;
+}
+
+/* Solarized Light */
+:root.theme-solarized-light {
+  --bg: #fdf6e3;
+  --fg: #657b83;
+  --primary: #268bd2;
+  --secondary: #2aa198;
+  --accent: #b58900;
+  --highlight: #6c71c4;
+  --muted: #93a1a1;
+}

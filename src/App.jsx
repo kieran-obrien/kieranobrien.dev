@@ -5,6 +5,7 @@ import SocialIcons from "./SocialIcons";
 import Footer from "./Footer";
 import ButtonTest from "./ButtonTest";
 import Blurb from "./Blurb";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <br />
       <hr className="mx-auto w-xs sm:w-xl" />
       <SocialIcons />
+      <ThemeSwitcher />
       <div className="main-body flex flex-col lg:flex-row gap-8 m-5">
         <Blurb />
         <Blurb
