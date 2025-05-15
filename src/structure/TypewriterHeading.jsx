@@ -8,7 +8,7 @@ const helloWorldTranslations = {
   Russian: "Привет, мир!",
   Japanese: "こんにちは、世界！",
   German: "Hallo, Welt!",
-  French: "Bonjour, le monde!",
+  // French: "Bonjour, le monde!",
   Korean: "안녕하세요, 세계!",
   Italian: "Ciao, mondo!",
   Dutch: "Hallo, wereld!",
@@ -31,12 +31,12 @@ function TypewriterHeading() {
         setCharIndex(charIndex + 1);
         setDisplayText(currentWord.substring(0, charIndex + 1));
       } else if (isDeleting && charIndex > 0) {
-        setIsCursorBlinking(null)
+        setIsCursorBlinking(null);
         setCharIndex(charIndex - 1);
         setDisplayText(currentWord.substring(0, charIndex - 1));
       } else {
         if (!isDeleting) {
-          setIsCursorBlinking("blinking")
+          setIsCursorBlinking("blinking");
           setTimeout(() => setIsDeleting(true), 1000); // pause when fully typed
         } else {
           setIsDeleting(false);
@@ -49,7 +49,7 @@ function TypewriterHeading() {
   }, [charIndex, isDeleting, langIndex]);
 
   return (
-    <h1 className="text-pretty text-6xl">
+    <h1 className="text-pretty text-3xl sm:text-6xl">
       {displayText}
       <span className={`caret-${isCursorBlinking}`}>|</span>
     </h1>

@@ -50,9 +50,9 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  /*font-size: 3em;
+  line-height: 1.1;*/
   font-family: IBM Plex Mono;
-  line-height: 1.1;
 }
 
 button {
@@ -156,5 +156,3 @@ button:focus-visible {
 .count {
   margin: 300px 100px;
 }
-
-
