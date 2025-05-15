@@ -96,3 +96,14 @@
   --highlight: #6c71c4;
   --muted: #93a1a1;
 }
+
+/* Colour-blind Friendly*/
+:root.theme-colorblind {
+  --bg: #1c1c1c; /* Dark neutral background */
+  --fg: #f0f0f0; /* Light neutral foreground */
+  --primary: #2a9df4; /* Vivid blue (good contrast & safe across types) */
+  --secondary: #ffb300; /* Strong amber (distinguishable from red/green) */
+  --accent: #00b894; /* Strong teal (safe for red-green blindness) */
+  --highlight: #e67e22; /* Orange (still safe, high visibility) */
+  --muted: #7f8c8d; /* Neutral grey for secondary text */
+}

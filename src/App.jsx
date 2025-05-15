@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./css/app.css";
 import TypewriterHeading from "./structure/TypewriterHeading";
-import SocialIcons from "./content/SocialIcons";
+import SocialIcons from "./ui/SocialIcons";
 import Footer from "./structure/Footer";
 import ButtonTest from "./ui/ButtonTest";
 import Blurb from "./content/Blurb";
 import ThemeSwitcher from "./ui/ThemeSwitcher";
 import SkillsSection from "./content/SkillsSection";
-import Radio from "./content/TestRadio";
+import ProjectsSection from "./content/ProjectsSection";
 
 function App() {
   return (
@@ -23,11 +23,13 @@ function App() {
           invisible="invisible"
           border="border-solid border-white border-2"
         />*/}
-        <img src="../public/meghibli2.png" className="w-md h-md"></img>
+        <img src="./meghibli2.png" className="w-md h-md"></img>
       </div>
       {/*<ButtonTest />*/}
       <hr className="mx-auto w-xs sm:w-6xl" />
       <SkillsSection />
+      <hr className="mx-auto w-xs sm:w-6xl" />
+      <ProjectsSection />
       <Footer />
     </>
   );

@@ -87,6 +87,20 @@ button:focus-visible {
   }
 }
 
+.caret-blinking {
+  animation: blink 0.5s linear infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 .jello-horizontal {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;

@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer>
+    <footer className="text-xs">
       <p>Kieran O'Brien © 2025</p>
     </footer>
   );
