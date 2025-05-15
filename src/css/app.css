@@ -32,7 +32,6 @@ body {
 }
 
 a {
-  color: var(--accent);
   font-weight: 500;
   text-decoration: inherit;
 }
@@ -74,17 +73,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-.skill-icon {
-  color: var(--secondary);
-  /* LETS USE DIFFERENT COLOURS FOR FRONT END/BACK END ETC.*/
-}
-
-/*
-.skill-icon-core {
-  color: var(--primary);
-
-}*/
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -168,3 +156,5 @@ button:focus-visible {
 .count {
   margin: 300px 100px;
 }
+
+
