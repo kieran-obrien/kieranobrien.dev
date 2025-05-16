@@ -3,7 +3,7 @@ function Blurb({ invisible, border }) {
     <p
       className={`block sm:m-16 leading-relaxed text-lg text-center ${invisible} ${border} text-shadow-md/20 text-[var(--fg)]`}
     >
-      Hi, I’m Kieran — a junior software developer with a passion for building
+      Hello, world! I’m Kieran — a junior software developer with a passion for building
       clean, functional, and user-focused applications. After over a decade in a
       different field, I’ve leapt headfirst into tech, bringing with me a sharp
       eye for detail, strong problem-solving skills, and a relentlessly curious

@@ -1,4 +1,5 @@
 import "./css/app.css";
+import HorizontalLine from "./content/HorizontalLine";
 import TypewriterHeading from "./structure/TypewriterHeading";
 import SocialIcons from "./ui/SocialIcons";
 import Footer from "./structure/Footer";
@@ -12,21 +13,23 @@ function App() {
     <>
       <TypewriterHeading />
       <br />
-      <hr className="mx-auto w-xs sm:w-xl" />
+      <HorizontalLine width="sm:w-xl" />
       <SocialIcons />
       <ThemeSwitcher />
+      <br />
       <div className="main-body flex flex-col lg:flex-row gap-8 m-5">
+        <img src="./meghibli2.png" className="w-md h-md"></img>
         <Blurb />
         {/*<Blurb
           invisible="invisible"
           border="border-solid border-white border-2"
         />*/}
-        <img src="./meghibli2.png" className="w-md h-md"></img>
       </div>
-      <hr className="mx-auto w-xs sm:w-6xl" />
+      <HorizontalLine width="sm:w-6xl" />
       <SkillsSection />
-      <hr className="mx-auto w-xs sm:w-6xl" />
+      <HorizontalLine width="sm:w-6xl" />
       <ProjectsSection />
+      <HorizontalLine width="sm:w-6xl" />
       <Footer />
     </>
   );
