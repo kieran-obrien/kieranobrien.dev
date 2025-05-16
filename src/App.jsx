@@ -1,13 +1,11 @@
-import { useState } from "react";
 import "./css/app.css";
 import TypewriterHeading from "./structure/TypewriterHeading";
 import SocialIcons from "./ui/SocialIcons";
 import Footer from "./structure/Footer";
-import ButtonTest from "./ui/ButtonTest";
 import Blurb from "./content/Blurb";
 import ThemeSwitcher from "./ui/ThemeSwitcher";
-import SkillsSection from "./content/SkillsSection";
-import ProjectsSection from "./content/ProjectsSection";
+import SkillsSection from "./content/skills-section/SkillsSection";
+import ProjectsSection from "./content/projects-section/ProjectsSection";
 
 function App() {
   return (
@@ -25,7 +23,6 @@ function App() {
         />*/}
         <img src="./meghibli2.png" className="w-md h-md"></img>
       </div>
-      {/*<ButtonTest />*/}
       <hr className="mx-auto w-xs sm:w-6xl" />
       <SkillsSection />
       <hr className="mx-auto w-xs sm:w-6xl" />

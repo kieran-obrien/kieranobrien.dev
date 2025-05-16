@@ -1,7 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { langs, frontend, backend, tools, other } from "./Skills";
-
-import { project1 } from "./ProjectSkills";
+import { project1, project2 } from "./ProjectSkills";
 
 const ProjectsSection = () => {
   return (
@@ -11,7 +9,7 @@ const ProjectsSection = () => {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8 text-[var(--fg)] group">
         <ProjectCard title="Project 1" skills={project1} />
-        <ProjectCard title="Project 2" skills={frontend} />
+        <ProjectCard title="Project 2" skills={project2} />
       </div>
     </section>
   );
