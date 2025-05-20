@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import ProjectCard2 from "./ProjectCard2";
 import { project1, project2 } from "./ProjectSkills";
 
 const ProjectsSection = () => {
@@ -8,8 +9,8 @@ const ProjectsSection = () => {
         Projects
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-12 text-[var(--fg)] group">
-        <ProjectCard title="Project 1" skills={project1} />
-        <ProjectCard title="Project 2" skills={project2} />
+        <ProjectCard2 title="Project 1" skills={project1} carId={1}/>
+        <ProjectCard2 title="Project 2" skills={project2} carId={2}/>
       </div>
     </section>
   );
