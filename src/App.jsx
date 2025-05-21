@@ -3,10 +3,11 @@ import HorizontalLine from "./content/HorizontalLine";
 import TypewriterHeading from "./structure/TypewriterHeading";
 import SocialIcons from "./ui/SocialIcons";
 import Footer from "./structure/Footer";
-import Blurb from "./content/Blurb";
+import Hero from "./content/hero-section/Hero";
 import ThemeSwitcher from "./ui/ThemeSwitcher";
 import SkillsSection from "./content/skills-section/SkillsSection";
 import ProjectsSection from "./content/projects-section/ProjectsSection";
+import BooksSection from "./content/books-section/BooksSection";
 
 function App() {
   return (
@@ -17,19 +18,14 @@ function App() {
       <SocialIcons />
       <ThemeSwitcher />
       <br />
-      <div className="main-body flex flex-col lg:flex-row gap-8 m-5">
-        <img src="./meghibli2.png" className="w-md h-md"></img>
-        <Blurb />
-        {/*<Blurb
-          invisible="invisible"
-          border="border-solid border-white border-2"
-        />*/}
-      </div>
-      <HorizontalLine width="sm:w-6xl" />
+      <Hero />
+      <HorizontalLine width="sm:w-full" />
       <SkillsSection />
-      <HorizontalLine width="sm:w-6xl" />
+      <HorizontalLine width="sm:w-full" />
       <ProjectsSection />
-      <HorizontalLine width="sm:w-6xl" />
+      <HorizontalLine width="sm:w-full" />
+      <BooksSection />
+      <HorizontalLine width="sm:w-full" />
       <Footer />
     </>
   );

@@ -4,20 +4,18 @@ const SkillCard = ({ title, skills, color }) => (
     <ul className="space-y-1 text-sm text-muted-foreground ">
       {skills.map((skill, index) => (
         <div
+          key={index}
           className="tooltip tooltip-bottom hover:scale-120 transition duration-150"
           style={{ "--tt-bg": "transparent" }}
         >
           <div className="hidden lg:block tooltip-content bg-transparent -translate-y-9/10">
-            <div className={`${color} text-sm font-[IBM_Plex_Mono] font-black p-2`}>
+            <div
+              className={`${color} text-sm font-[IBM_Plex_Mono] font-black p-2`}
+            >
               {skill.props.title}
             </div>
           </div>
-          <li
-            key={index}
-            className="m-6 "
-          >
-            {skill}
-          </li>
+          <li className="m-6 ">{skill}</li>
         </div>
       ))}
     </ul>
