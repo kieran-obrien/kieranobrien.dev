@@ -9,11 +9,31 @@ const SkillsSection = () => {
           Tech Stack
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 text-[var(--fg)] group">
-          <SkillCard title="Core" skills={langs} />
-          <SkillCard title="Frontend" skills={frontend} />
-          <SkillCard title="Backend" skills={backend} />
-          <SkillCard title="Tools" skills={tools} />
-          <SkillCard title="Other" skills={other} />
+          <SkillCard
+            title="Core"
+            skills={langs}
+            color="text-[var(--primary)]"
+          />
+          <SkillCard
+            title="Frontend"
+            skills={frontend}
+            color="text-[var(--secondary)]"
+          />
+          <SkillCard
+            title="Backend"
+            skills={backend}
+            color="text-[var(--accent)]"
+          />
+          <SkillCard
+            title="Tools"
+            skills={tools}
+            color="text-[var(--highlight)]"
+          />
+          <SkillCard
+            title="Other"
+            skills={other}
+            color="text-[var(--primary)]"
+          />
         </div>
       </section>
     </div>
