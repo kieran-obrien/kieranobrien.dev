@@ -4,10 +4,10 @@ const SkillCard = ({ title, skills, color }) => (
     <ul className="space-y-1 text-sm text-muted-foreground">
       {skills.map((skill, index) => (
         <div
-          className="tooltip tooltip-right"
+          className="tooltip tooltip-bottom"
           style={{ "--tt-bg": "transparent" }}
         >
-          <div className="hidden lg:block tooltip-content bg-[var(--muted)]">
+          <div className="hidden lg:block tooltip-content bg-transparent -translate-y-9/10">
             <div className={`${color} text-md font-black p-2`}>
               {skill.props.title}
             </div>
