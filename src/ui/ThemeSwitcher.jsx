@@ -11,9 +11,9 @@ const ThemeSwitcher = () => {
 
   return (
     <div>
-      <i className="ri-palette-fill m-3 align-middle text-center text-3xl text-[var(--primary)] text-[var(--primary)] m-3 text-shadow-md/30"></i>
+      <i className="ri-palette-fill m-3 align-middle text-center text-2xl sm:text-3xl text-[var(--primary)] text-[var(--primary)] m-3 text-shadow-md/30"></i>
       <select
-        className="w-50 px-4 py-2 text-sm text-[var(--fg)] bg-[var(--bg)] border border-[var(--muted)] rounded-sm shadow-sm appearance-none"
+        className="sm:w-50 px-4 py-2 text-sm text-[var(--fg)] bg-[var(--bg)] border border-[var(--primary)] hover:border-[var(--secondary)] focus:outline-none rounded-sm shadow-sm appearance-none"
         required
         onChange={switchTheme}
         value={theme}

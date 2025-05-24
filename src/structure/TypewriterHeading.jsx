@@ -49,7 +49,7 @@ function TypewriterHeading() {
   }, [charIndex, isDeleting, langIndex]);
 
   return (
-    <h1 className="text-pretty text-3xl sm:text-6xl">
+    <h1 className="text-pretty text-4xl sm:text-6xl mt-5">
       {displayText}
       <span className={`caret-${isCursorBlinking} text-[var(--primary)]`}>|</span>
     </h1>

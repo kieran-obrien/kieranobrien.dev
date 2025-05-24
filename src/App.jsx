@@ -24,7 +24,7 @@ function App() {
       <HorizontalLine width="sm:w-full" />
       <ProjectsSection />
       <HorizontalLine width="sm:w-full" />
-      <BooksSection />
+      {/*<BooksSection />*/}
       <HorizontalLine width="sm:w-full" />
       <Footer />
     </>

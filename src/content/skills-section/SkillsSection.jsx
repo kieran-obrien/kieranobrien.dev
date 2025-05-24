@@ -8,7 +8,7 @@ const SkillsSection = () => {
         <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
           Tech Stack
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 text-[var(--fg)] group">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-8 text-[var(--fg)] group">
           <SkillCard
             title="Core"
             skills={langs}
