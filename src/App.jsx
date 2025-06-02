@@ -6,8 +6,9 @@ import Footer from "./structure/Footer";
 import Hero from "./content/hero-section/Hero";
 import ThemeSwitcher from "./ui/ThemeSwitcher";
 import SkillsSection from "./content/skills-section/SkillsSection";
-import ProjectsSection from "./content/projects-section/ProjectsSection";
-import BooksSection from "./content/books-section/BooksSection";
+import ProjectsSection from "./content/projects-section/ProjectsSection"
+import CertsSection from "./content/certs-section/CertsSection";
+
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <HorizontalLine width="sm:w-full" />
       {/*<BooksSection />*/}
       <HorizontalLine width="sm:w-full" />
+      <CertsSection />
       <Footer />
     </>
   );
