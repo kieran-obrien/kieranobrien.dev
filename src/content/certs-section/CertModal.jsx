@@ -1,7 +1,7 @@
 const CertModal = ({ certName, certImg }) => {
   return (
     <div className="flex-col m-4 p-4 wrap hover:scale-110 transition duration-150">
-      <p>{certName}</p>
+      <p><b>{certName}</b></p>
       <button
         className=""
         onClick={() => document.getElementById("my_modal_2").showModal()}
