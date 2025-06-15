@@ -8,7 +8,13 @@ const ProjectsSection = () => {
         Projects
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-12 text-[var(--fg)] group">
-        <ProjectCard title="Project 1" skills={project1} carId={1} />
+        <ProjectCard
+          title="Starstuf"
+          skills={project1}
+          carId={1}
+          repo="https://github.com/kieran-obrien/starstuf"
+          url="https://starstuf.app"
+        />
         <ProjectCard title="Project 2" skills={project2} carId={2} />
       </div>
     </section>
