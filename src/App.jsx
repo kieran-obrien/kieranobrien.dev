@@ -21,13 +21,8 @@ function App() {
         <br />
         <Hero />
       </div>
-      <HorizontalLine width="sm:w-full" />
       <SkillsSection />
-      <HorizontalLine width="sm:w-full" />
       <ProjectsSection />
-      <HorizontalLine width="sm:w-full" />
-      {/*<BooksSection />*/}
-      <HorizontalLine width="sm:w-full" />
       <CertsSection />
       <Footer />
     </div>

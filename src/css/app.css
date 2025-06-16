@@ -19,6 +19,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--bg);
   color: var(--fg);

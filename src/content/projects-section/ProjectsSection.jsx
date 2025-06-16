@@ -3,7 +3,7 @@ import { project1, project2 } from "./ProjectSkills";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="snap-start h-screen py-20 sm:px-5">
+    <section id="projects" className="snap-start h-screen sm:px-5">
       <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
         Projects
       </h2>
