@@ -6,20 +6,21 @@ import Footer from "./structure/Footer";
 import Hero from "./content/hero-section/Hero";
 import ThemeSwitcher from "./ui/ThemeSwitcher";
 import SkillsSection from "./content/skills-section/SkillsSection";
-import ProjectsSection from "./content/projects-section/ProjectsSection"
+import ProjectsSection from "./content/projects-section/ProjectsSection";
 import CertsSection from "./content/certs-section/CertsSection";
-
 
 function App() {
   return (
-    <>
-      <TypewriterHeading />
-      <br />
-      <HorizontalLine width="sm:w-xl" />
-      <SocialIcons />
-      <ThemeSwitcher />
-      <br />
-      <Hero />
+    <div className="snap-y snap-mandatory h-screen overflow-y-scroll mt-[5rem]">
+      <div className="snap-start h-screen">
+        <TypewriterHeading />
+        <br />
+        <HorizontalLine width="sm:w-xl" />
+        <SocialIcons />
+        <ThemeSwitcher />
+        <br />
+        <Hero />
+      </div>
       <HorizontalLine width="sm:w-full" />
       <SkillsSection />
       <HorizontalLine width="sm:w-full" />
@@ -29,7 +30,7 @@ function App() {
       <HorizontalLine width="sm:w-full" />
       <CertsSection />
       <Footer />
-    </>
+    </div>
   );
 }
 

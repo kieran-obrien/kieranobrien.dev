@@ -3,8 +3,8 @@ import { langs, frontend, backend, tools, other } from "./Skills";
 
 const SkillsSection = () => {
   return (
-    <div className="">
-      <section id="skills" className="py-20 px-4 max-w-6xl mx-auto">
+    <div className="snap-start h-screen">
+      <section id="skills" className="py-5 px-4 max-w-6xl mx-auto h-full">
         <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
           Tech Stack
         </h2>
