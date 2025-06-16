@@ -39,6 +39,9 @@ const SkillsSection = () => {
       </div>
 
       {/* Desktop grid version */}
+      <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12  snap-start">
+        Tech Stack
+      </h2>
       <div className="hidden sm:grid grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-8 text-[var(--fg)]">
         <SkillCard title="Core" skills={langs} color="text-[var(--primary)]" />
         <SkillCard

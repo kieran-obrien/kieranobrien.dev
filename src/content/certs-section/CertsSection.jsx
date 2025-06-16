@@ -2,7 +2,7 @@ import CertModal from "./CertModal";
 
 const CertsSection = () => {
   return (
-    <section id="projects" className="py-20 sm:px-5 flex-col">
+    <section id="projects" className="py-20 sm:px-5 flex-col snap-start h-screen">
       <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
         Certifications
       </h2>

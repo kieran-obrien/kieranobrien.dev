@@ -3,7 +3,7 @@ import HorizontalLine from "../HorizontalLine";
 
 const ProjectCard = ({ title, skills, carId, repo, url }) => {
   return (
-    <div className="flex flex-col justify-start items-center bg-muted rounded-2xl shadow-2xl/60 p-7  hover:shadow-2xl/90 transition-all group-hover:blur-xs hover:!blur-none transition duration-150 snap-start h-screen ">
+    <div className="flex flex-col justify-start items-center bg-muted rounded-2xl shadow-2xl/60 p-7  hover:shadow-2xl/90 transition-all group-hover:blur-xs hover:!blur-none transition duration-150">
       <div className="carousel w-full rounded-lg">
         <div id={`${carId}1`} className="carousel-item relative w-full">
           <img src="./placeholder2.png" className="w-full" />

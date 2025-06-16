@@ -3,8 +3,8 @@ import { project1, project2 } from "./ProjectSkills";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="snap-start h-screen sm:px-5">
-      <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
+    <section id="projects" className="snap-start h-screen sm:px-5 mt-12">
+      <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-4">
         Projects
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-12 text-[var(--fg)] group">

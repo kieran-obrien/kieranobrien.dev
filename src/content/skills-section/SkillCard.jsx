@@ -3,12 +3,12 @@ const SkillCard = ({ title, skills, color, mobileFull = false }) => (
     className={`
       bg-muted rounded-2xl shadow-2xl/60 hover:shadow-2xl/90 transition-all 
       group-hover:blur-xs hover:!blur-none hover:scale-105 duration-150 
-      overflow-y-auto snap-start shrink-0 
-      ${mobileFull ? "w-screen h-screen" : "max-h-[85vh]"}
+      overflow-y-auto shrink-0 
+      ${mobileFull ? "w-screen h-screen" : "max-h-[80vh]"}
     `}
   >
     <h3 className="text-2xl font-semibold mb-4">{title}</h3>
-    <ul className="text-sm text-muted-foreground flex flex-col gap-3 pb-20">
+    <ul className="text-xs text-muted-foreground flex flex-col gap-1 pb-20">
       {skills.map((skill, index) => (
         <div
           key={index}
