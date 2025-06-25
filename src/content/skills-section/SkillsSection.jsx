@@ -5,7 +5,7 @@ const SkillsSection = () => {
   return (
     <div className="group">
       {/* Mobile: Fullscreen horizontal snap carousel */}
-      <div className="flex snap-x snap-mandatory overflow-x-auto h-screen w-screen sm:hidden snap-start scroll-smooth">
+      <div className="flex snap-x snap-mandatory sm:overflow-x-auto h-screen w-screen sm:hidden sm:snap-start scroll-smooth">
         <SkillCard
           title="Core"
           skills={langs}
