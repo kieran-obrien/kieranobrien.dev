@@ -1,20 +1,19 @@
 const SkillCard = ({ title, skills, color, mobileFull = false }) => (
   <div
     className={`
-      bg-muted rounded-2xl shadow-2xl/60 hover:shadow-2xl/90 transition-all 
-      group-hover:blur-xs hover:!blur-none hover:scale-105 duration-150 
-      overflow-y-auto shrink-0 w-full snap-center
+      bg-[var(--bg)] rounded-2xl shadow-2xl mb-5
+      overflow-y-auto overflow-x-hidden shrink-0 w-full sm:w-40 snap-center
     `}
   >
-    <h3 className="text-2xl font-semibold my-4">{title}</h3>
-    <ul className="text-xs text-muted-foreground flex flex-col gap-1 pb-20">
+    <h3 className="text-2xl sm:text-2xl font-semibold mt-4">{title}</h3>
+    <ul className="text-xs text-muted-foreground flex flex-col justify-around align-center gap-1 pb-20 h-9/10">
       {skills.map((skill, index) => (
         <div
           key={index}
           className="tooltip tooltip-bottom hover:scale-110 transition duration-150"
           style={{ "--tt-bg": "transparent" }}
         >
-          <div className="lg:block tooltip-content bg-transparent -translate-y-7/10 lg:-translate-y-9/10">
+          <div className="hidden lg:block tooltip-content bg-transparent -translate-y-7/10 lg:-translate-y-7/10">
             <div
               className={`${color} text-sm font-[IBM_Plex_Mono] font-black p-2`}
             >

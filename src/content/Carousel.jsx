@@ -1,20 +1,20 @@
-// Carousel.jsx
-const cards = [
-  { id: 1, title: "Card 1", content: "This is the first card." },
-  { id: 2, title: "Card 2", content: "This is the second card." },
-  { id: 3, title: "Card 3", content: "This is the third card." },
-  { id: 4, title: "Card 4", content: "This is the fourth card." },
-  { id: 5, title: "Card 5", content: "This is the fifth card." },
-];
-
 import SkillCard from "./skills-section/SkillCard";
-import { langs, frontend, backend, tools, other } from "./skills-section/Skills";
+import {
+  langs,
+  frontend,
+  backend,
+  tools,
+  other,
+} from "./skills-section/Skills";
 
 export default function Carousel() {
   return (
-    <div className="snap-start h-screen w-full flex items-center justify-center">
-      <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory w-full max-w-3xl">
-        <div className="flex">
+    <div className="snap-start h-screen w-full flex flex-col items-center justify-start">
+      <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4">
+          Tech Stack/Skills
+        </h2>
+      <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory w-full max-w-5xl">
+        <div className="flex sm:justify-center gap-4 sm:gap-10">
           <SkillCard
             title="Core"
             skills={langs}

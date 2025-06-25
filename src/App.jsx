@@ -9,6 +9,8 @@ import SkillsSection from "./content/skills-section/SkillsSection";
 import ProjectsSection from "./content/projects-section/ProjectsSection";
 import CertsSection from "./content/certs-section/CertsSection";
 import Carousel from "./content/Carousel";
+import OtherTest from "./content/OtherTest";
+import ToastExample from "./content/ToastExample";
 
 function App() {
   return (
@@ -23,9 +25,10 @@ function App() {
         <Hero />
       </div>
       <Carousel />
-      <SkillsSection />
+      <OtherTest />
       <ProjectsSection />
       <CertsSection />
+      <ToastExample />
       <Footer />
     </div>
   );
