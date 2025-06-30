@@ -13,8 +13,8 @@ export default function Carousel() {
       <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4">
           Tech Stack/Skills
         </h2>
-      <div className="overflow-x-auto scroll-smooth snap-x snap-mandatory w-full max-w-5xl">
-        <div className="flex sm:justify-center gap-4 sm:gap-10">
+      <div className="grow-1 overflow-x-auto overflow-y-hidden scroll-smooth snap-x snap-mandatory w-full max-w-5xl">
+        <div className="flex h-full sm:justify-center gap-4 sm:gap-10">
           <SkillCard
             title="Core"
             skills={langs}

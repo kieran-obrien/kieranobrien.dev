@@ -1,7 +1,7 @@
 const SkillCard = ({ title, skills, color, mobileFull = false }) => (
   <div
     className={`
-      bg-[var(--bg)] rounded-2xl shadow-2xl mb-5
+      bg-[var(--bg)] rounded-2xl sm:shadow-2xl mb-5
       overflow-y-auto overflow-x-hidden shrink-0 w-full sm:w-40 snap-center
     `}
   >

@@ -26,7 +26,6 @@ function App() {
       </div>
       <Carousel />
       <OtherTest />
-      <ProjectsSection />
       <CertsSection />
       <ToastExample />
       <Footer />

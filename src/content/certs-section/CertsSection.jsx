@@ -1,9 +1,13 @@
 import CertModal from "./CertModal";
+import Footer from "../../structure/Footer";
 
 const CertsSection = () => {
   return (
-    <section id="projects" className="py-20 sm:px-5 flex-col sm:snap-start h-screen">
-      <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12">
+    <section
+      id="projects"
+      className="flex flex-col justify-start items-center snap-start h-screen"
+    >
+      <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4 mb-12">
         Certifications
       </h2>
       <div className="flex justify-around flex-wrap w-full">
@@ -12,6 +16,7 @@ const CertsSection = () => {
         <CertModal certName="CS50P" certImg="./cs50p.png" />
         <CertModal certName="CS50P" certImg="./cs50p.png" />
       </div>
+      <Footer />
     </section>
   );
 };

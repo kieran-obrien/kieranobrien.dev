@@ -4,10 +4,10 @@ import HorizontalLine from "../HorizontalLine";
 const ProjectCard = ({ title, skills, carId, repo, url }) => {
   return (
     <div
-      className="flex flex-col justify-start items-center bg-muted rounded-2xl shadow-2xl/60 p-7  hover:shadow-2xl/90 transition-all group-hover:blur-xs hover:!blur-none transition duration-150 bg-[var(--bg)] rounded-2xl 
+      className="flex flex-col h-full justify-start items-center p-5 bg-[var(--bg)] rounded-xl 
       overflow-y-hidden overflow-x-hidden shrink-0 w-full snap-center"
     >
-      <div className="carousel w-full rounded-lg">
+      <div className="carousel w-50 h-50 sm:w-100 sm:h-100 rounded-lg">
         <div id={`${carId}1`} className="carousel-item relative w-full">
           <img src="./placeholder2.png" className="w-full" />
           <div className="absolute left-2 right-2 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -16,7 +16,6 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
                 document.getElementById(`${carId}2`).scrollIntoView({
                   behavior: "smooth",
                   block: "nearest",
-                  inline: "start",
                 })
               }
               className="btn btn-circle btn-sm border-none bg-[var(--primary)] hover:bg-[var(--secondary)] active:bg-[var(--muted)]"
@@ -28,7 +27,6 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
                 document.getElementById(`${carId}2`).scrollIntoView({
                   behavior: "smooth",
                   block: "nearest",
-                  inline: "start",
                 })
               }
               className="btn btn-circle btn-sm border-none bg-[var(--primary)] hover:bg-[var(--secondary)] active:bg-[var(--muted)]"
@@ -45,7 +43,6 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
                 document.getElementById(`${carId}1`).scrollIntoView({
                   behavior: "smooth",
                   block: "nearest",
-                  inline: "start",
                 })
               }
               className="btn btn-circle btn-sm border-none bg-[var(--primary)] hover:bg-[var(--secondary)] active:bg-[var(--muted)]"
@@ -57,7 +54,6 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
                 document.getElementById(`${carId}1`).scrollIntoView({
                   behavior: "smooth",
                   block: "nearest",
-                  inline: "start",
                 })
               }
               className="btn btn-circle btn-sm border-none bg-[var(--primary)] hover:bg-[var(--secondary)] active:bg-[var(--muted)]"
@@ -97,9 +93,9 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
       </div>
 
       <HorizontalLine width="w-full mb-6" />
-      <div className="flex flex-wrap xs:w-full justify-center items-center gap-2">
+      <div className="flex flex-wrap xs:w-full justify-center items-center gap-1 sm:gap-2">
         {skills.map((skill, index) => (
-          <span key={index} className="hover:scale-115 transition duration-150">
+          <span key={index} className="hover:scale-115 transition duration-150 text-3xl sm:text-4xl">
             {skill}
           </span>
         ))}
