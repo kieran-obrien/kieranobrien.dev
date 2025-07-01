@@ -1,68 +1,46 @@
 import SkillCard from "./SkillCard";
 import { langs, frontend, backend, tools, other } from "./Skills";
 
-const SkillsSection = () => {
+export default function SkillsSection() {
   return (
-    <div className="group">
-      {/* Mobile: Fullscreen horizontal snap carousel */}
-      <div className="flex snap-x snap-mandatory sm:overflow-x-auto h-screen w-screen sm:hidden sm:snap-start scroll-smooth">
-        <SkillCard
-          title="Core"
-          skills={langs}
-          color="text-[var(--primary)]"
-          mobileFull
-        />
-        <SkillCard
-          title="Frontend"
-          skills={frontend}
-          color="text-[var(--secondary)]"
-          mobileFull
-        />
-        <SkillCard
-          title="Backend"
-          skills={backend}
-          color="text-[var(--accent)]"
-          mobileFull
-        />
-        <SkillCard
-          title="Tools"
-          skills={tools}
-          color="text-[var(--highlight)]"
-          mobileFull
-        />
-        <SkillCard
-          title="Other"
-          skills={other}
-          color="text-[var(--primary)]"
-          mobileFull
-        />
-      </div>
-
-      {/* Desktop grid version */}
-      <h2 className="text-4xl font-bold font-[IBM_Plex_Mono] text-center mb-12  snap-start">
-        Tech Stack
+    <div className="snap-start lg:h-screen w-full flex flex-col items-center justify-start">
+      <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4">
+        Tech Stack/Skills
       </h2>
-      <div className="hidden sm:grid grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-8 text-[var(--fg)]">
-        <SkillCard title="Core" skills={langs} color="text-[var(--primary)]" />
-        <SkillCard
-          title="Frontend"
-          skills={frontend}
-          color="text-[var(--secondary)]"
-        />
-        <SkillCard
-          title="Backend"
-          skills={backend}
-          color="text-[var(--accent)]"
-        />
-        <SkillCard
-          title="Tools"
-          skills={tools}
-          color="text-[var(--highlight)]"
-        />
-        <SkillCard title="Other" skills={other} color="text-[var(--primary)]" />
+      <div className="grow-1 overflow-x-auto overflow-y-hidden scroll-smooth snap-x snap-mandatory w-full max-w-5xl">
+        <div className="flex h-full sm:justify-center gap-4 sm:gap-10">
+          <SkillCard
+            title="Core"
+            skills={langs}
+            color="text-[var(--primary)]"
+            mobileFull
+          />
+          <SkillCard
+            title="Frontend"
+            skills={frontend}
+            color="text-[var(--secondary)]"
+            mobileFull
+          />
+          <SkillCard
+            title="Backend"
+            skills={backend}
+            color="text-[var(--accent)]"
+            mobileFull
+          />
+          <SkillCard
+            title="Tools"
+            skills={tools}
+            color="text-[var(--highlight)]"
+            mobileFull
+          />
+          <SkillCard
+            title="Other"
+            skills={other}
+            color="text-[var(--primary)]"
+            mobileFull
+          />
+        </div>
       </div>
     </div>
   );
-};
-
-export default SkillsSection;
+}

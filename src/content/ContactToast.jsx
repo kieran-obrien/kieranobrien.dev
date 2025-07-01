@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function ToastExample() {
+export default function ContactToast() {
   const [visible, setVisible] = useState(false);
   const [isFading, setIsFading] = useState(false);
 

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import HorizontalLine from "../HorizontalLine";
 
 const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {

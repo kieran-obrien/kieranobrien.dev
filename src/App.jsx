@@ -8,9 +8,7 @@ import ThemeSwitcher from "./ui/ThemeSwitcher";
 import SkillsSection from "./content/skills-section/SkillsSection";
 import ProjectsSection from "./content/projects-section/ProjectsSection";
 import CertsSection from "./content/certs-section/CertsSection";
-import Carousel from "./content/Carousel";
-import OtherTest from "./content/OtherTest";
-import ToastExample from "./content/ToastExample";
+import ContactToast from "./content/ContactToast";
 
 function App() {
   return (
@@ -24,10 +22,10 @@ function App() {
         <br />
         <Hero />
       </div>
-      <Carousel />
-      <OtherTest />
+      <SkillsSection />
+      <ProjectsSection />
       <CertsSection />
-      <ToastExample />     
+      <ContactToast />
       <Footer />
     </div>
   );
