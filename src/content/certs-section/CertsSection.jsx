@@ -5,7 +5,7 @@ const CertsSection = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col justify-start items-center snap-start h-screen"
+      className="flex flex-col justify-start items-center snap-start lg:h-screen"
     >
       <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4 mb-12">
         Certifications

@@ -1,6 +1,7 @@
 /* Dracula */
 :root.theme-dracula {
   --bg: #282a36;
+  --bg2: #1e1f2a;
   --fg: #f8f8f2;
   --primary: #bd93f9;
   --secondary: #ff79c6;
@@ -12,6 +13,7 @@
 /* Catppuccin OG */
 :root.theme-catppuccin {
   --bg: #f5e0dc;
+  --bg2: #d9c4c0;
   --fg: #575268;
   --primary: #d20f39;
   --secondary: #1e66f5;
@@ -23,6 +25,7 @@
 /* Catppuccin Mocha */
 :root.theme-catppuccin-mocha {
   --bg: #1e1e2e;
+  --bg2: #171725;
   --fg: #cdd6f4;
   --primary: #89b4fa;
   --secondary: #f38ba8;
@@ -34,6 +37,7 @@
 /* Nord Dark */
 :root.theme-nord-dark {
   --bg: #2e3440;
+  --bg2: #252933;
   --fg: #d8dee9;
   --primary: #88c0d0;
   --secondary: #81a1c1;
@@ -45,6 +49,7 @@
 /* Nord Light */
 :root.theme-nord-light {
   --bg: #eceff4;
+  --bg2: #d1d6db;
   --fg: #2e3440;
   --primary: #5e81ac;
   --secondary: #81a1c1;
@@ -56,6 +61,7 @@
 /* Tokyo Night Dark */
 :root.theme-tokyo-dark {
   --bg: #1a1b26;
+  --bg2: #14151d;
   --fg: #c0caf5;
   --primary: #7aa2f7;
   --secondary: #bb9af7;
@@ -67,6 +73,7 @@
 /* Tokyo Night Light */
 :root.theme-tokyo-light {
   --bg: #d5d6db;
+  --bg2: #b0b1b7;
   --fg: #3760bf;
   --primary: #34548a;
   --secondary: #c0a36e;
@@ -78,6 +85,7 @@
 /* Solarized Dark */
 :root.theme-solarized-dark {
   --bg: #002b36;
+  --bg2: #002026;
   --fg: #839496;
   --primary: #268bd2;
   --secondary: #2aa198;
@@ -89,6 +97,7 @@
 /* Solarized Light */
 :root.theme-solarized-light {
   --bg: #fdf6e3;
+  --bg2: #d8d4bb;
   --fg: #657b83;
   --primary: #268bd2;
   --secondary: #2aa198;
@@ -97,13 +106,14 @@
   --muted: #93a1a1;
 }
 
-/* Colour-blind Friendly*/
+/* Colour-blind Friendly */
 :root.theme-colorblind {
-  --bg: #1c1c1c; /* Dark neutral background */
-  --fg: #f0f0f0; /* Light neutral foreground */
-  --primary: #2a9df4; /* Vivid blue (good contrast & safe across types) */
-  --secondary: #ffb300; /* Strong amber (distinguishable from red/green) */
-  --accent: #00b894; /* Strong teal (safe for red-green blindness) */
-  --highlight: #e67e22; /* Orange (still safe, high visibility) */
-  --muted: #7f8c8d; /* Neutral grey for secondary text */
+  --bg: #1c1c1c;
+  --bg2: #141414;
+  --fg: #f0f0f0;
+  --primary: #2a9df4;
+  --secondary: #ffb300;
+  --accent: #00b894;
+  --highlight: #e67e22;
+  --muted: #7f8c8d;
 }

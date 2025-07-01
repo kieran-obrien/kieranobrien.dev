@@ -21,10 +21,10 @@ const ThemeSwitcher = () => {
         <option value="" disabled selected>
           Select a theme
         </option>
-        <option value="theme-dracula">Dracula</option>
+        <option value="theme-dracula">Dracula (Default)</option>
         <option value="theme-catppuccin">Catppuccin</option>
         <option value="theme-catppuccin-mocha">Catppuccin Mocha</option>
-        <option value="theme-nord-dark">Nord Dark (Default)</option>
+        <option value="theme-nord-dark">Nord Dark</option>
         <option value="theme-nord-light">Nord Light</option>
         <option value="theme-tokyo-dark">Tokyo Night Dark</option>
         <option value="theme-tokyo-light">Tokyo Night Light</option>

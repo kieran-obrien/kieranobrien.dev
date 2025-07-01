@@ -14,8 +14,8 @@ import ToastExample from "./content/ToastExample";
 
 function App() {
   return (
-    <div className="w-full overflow-x-hidden snap-y snap-mandatory h-screen overflow-y-scroll">
-      <div className="snap-start h-screen overflow-y-hidden">
+    <div className="w-full overflow-x-hidden lg:snap-y snap-mandatory h-screen overflow-y-scroll">
+      <div className="snap-start lg:h-screen overflow-y-hidden">
         <TypewriterHeading />
         <br />
         <HorizontalLine width="sm:w-xl" />
@@ -27,7 +27,7 @@ function App() {
       <Carousel />
       <OtherTest />
       <CertsSection />
-      <ToastExample />
+      <ToastExample />     
       <Footer />
     </div>
   );

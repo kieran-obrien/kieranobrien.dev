@@ -7,7 +7,7 @@ export default function ToastExample() {
   useEffect(() => {
     setTimeout(() => {
       setVisible(true);
-    }, 3000);
+    }, 15000);
   }, []);
 
   const handleClick = () => {

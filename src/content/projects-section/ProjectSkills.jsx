@@ -1,4 +1,4 @@
-const project1 = [
+const starstufSkills = [
   <i
     title="JavaScript"
     className="devicon-javascript-plain skill-icon-core  text-[var(--primary)]"
@@ -25,7 +25,7 @@ const project1 = [
   ></i>,
 ];
 
-const project2 = [
+const airbncBackendSkills = [
   <i
     title="JavaScript"
     className="devicon-javascript-plain skill-icon-core  text-[var(--primary)]"
@@ -60,4 +60,4 @@ const project2 = [
   ></i>
 ];
 
-export { project1, project2 };
+export { starstufSkills, airbncBackendSkills };

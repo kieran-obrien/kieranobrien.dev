@@ -1,15 +1,15 @@
 import { useState } from "react";
 import HorizontalLine from "../HorizontalLine";
 
-const ProjectCard = ({ title, skills, carId, repo, url }) => {
+const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
   return (
     <div
-      className="flex flex-col h-full justify-start items-center p-5 bg-[var(--bg)] rounded-xl 
+      className="flex flex-col h-full justify-start items-center p-5 bg-[var(--bg2)] rounded-lg
       overflow-y-hidden overflow-x-hidden shrink-0 w-full snap-center"
     >
-      <div className="carousel w-50 h-50 sm:w-100 sm:h-100 rounded-lg">
+      <div className="carousel w-50 h-50 sm:w-100 sm:h-100 lg:w-120 lg:h-120 rounded-lg border-solid border-2 border-[var(--primary)]">
         <div id={`${carId}1`} className="carousel-item relative w-full">
-          <img src="./placeholder2.png" className="w-full" />
+          <img src={images[0]} className="w-full" />
           <div className="absolute left-2 right-2 top-1/2 flex -translate-y-1/2 transform justify-between">
             <button
               onClick={() =>
@@ -36,7 +36,7 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
           </div>
         </div>
         <div id={`${carId}2`} className="carousel-item relative w-full">
-          <img src="./placeholder3.png" className="w-full" />
+          <img src={images[1]} className="w-full" />
           <div className="absolute left-2 right-2 top-1/2 flex -translate-y-1/2 transform justify-between">
             <button
               onClick={() =>
@@ -63,7 +63,7 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
           </div>
         </div>
       </div>
-      <div className="m-2 w-full rounded-md flex flex-row flex-wrap p-1 justify-between">
+      <div className="m-2 mb-0 w-full rounded-md flex flex-row flex-wrap p-1 justify-between">
         <h3 className={`mt-2 text-xl font-semibold mb-3`}>{title}</h3>
         <div className="">
           <a
@@ -92,20 +92,18 @@ const ProjectCard = ({ title, skills, carId, repo, url }) => {
         </div>
       </div>
 
-      <HorizontalLine width="w-full mb-6" />
+      <HorizontalLine width="w-full mb-4" />
       <div className="flex flex-wrap xs:w-full justify-center items-center gap-1 sm:gap-2">
         {skills.map((skill, index) => (
-          <span key={index} className="hover:scale-115 transition duration-150 text-3xl sm:text-4xl">
+          <span
+            key={index}
+            className="hover:scale-115 transition duration-150 text-3xl sm:text-4xl"
+          >
             {skill}
           </span>
         ))}
       </div>
-      <p className="mt-2 text-left p-2 w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
+      <p className="mt-2 text-left p-2 w-full">{blurb}</p>
     </div>
   );
 };
