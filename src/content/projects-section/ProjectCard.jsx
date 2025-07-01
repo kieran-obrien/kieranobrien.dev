@@ -64,7 +64,7 @@ const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
       </div>
       <div className="m-2 mb-0 w-full rounded-md flex flex-row flex-wrap p-1 justify-between">
         <h3 className={`mt-2 text-xl font-semibold mb-3`}>{title}</h3>
-        <div className="hover:animate-bounce transition-all duration-300">
+        <div className="transition-all duration-300">
           <a
             href={repo}
             className="font-[IBM_Plex_Mono] "
@@ -90,8 +90,10 @@ const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
           </a>
         </div>
       </div>
+      <hr
+        className={`block sm:mx-auto w-full mb-4 text-[var(--muted)]`}
+      />
 
-      <HorizontalLine width="w-full mb-4" />
       <div className="flex flex-wrap xs:w-full justify-center items-center gap-1 sm:gap-2">
         {skills.map((skill, index) => (
           <span
