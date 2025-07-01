@@ -10,11 +10,13 @@ const CertsSection = () => {
       <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4 mb-12">
         Certifications
       </h2>
-      <div className="grid grid-cols-2 gap-10 sm:gap-18 lg:gap-30 mx-5 mb-5 ">
-        <CertModal certName="CS50P" certImg="./CS50P.jpg" />
-        <CertModal certName="CS50" certImg="./cs50p.png" />
-        <CertModal certName="CS50" certImg="./cs50p.png" />
-        <CertModal certName="CS50" certImg="./cs50p.png" />
+      <div className="grid grid-cols-2 place-items-center lg:grid-cols-3 gap-10 sm:gap-18 lg:gap-30 mx-5 mb-5 ">
+        <CertModal certName="Harvard/edX CS50X" certImg="./CS50X.jpg" />
+        <CertModal certName="Harvard/edX CS50P" certImg="./CS50P.jpg" />
+        <CertModal certName="Mimo Front End Dev" certImg="./MimoFE.jpg" />
+        <CertModal certName="Mimo JavaScript" certImg="./MimoJS.jpg" />
+        <CertModal certName="Northcoders Software Dev w/ JS" certImg="./PlaceholderCert.jpg" />
+        <CertModal certName="Linux Foundation Certified IT Associate (In Progress)" certImg="./PlaceholderCert.jpg" />
       </div>
     </section>
   );
