@@ -22,8 +22,11 @@ function App() {
         <br />
         <Hero />
       </div>
+      <HorizontalLine/>
       <SkillsSection />
+      <HorizontalLine/>
       <ProjectsSection />
+      <HorizontalLine/>
       <CertsSection />
       <ContactToast />
       <Footer />
