@@ -15,8 +15,6 @@ body {
   background-color: var(--bg2);
 }
 
-
-
 h1 {
   font-family: IBM Plex Mono;
 }
@@ -33,4 +31,22 @@ h1 {
   50% {
     opacity: 0;
   }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img[src*="meghibli2.png"] {
+  aspect-ratio: 1 / 1;
+}
+
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.font-loading {
+  font-display: swap;
 }
