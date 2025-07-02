@@ -63,7 +63,7 @@ const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
         </div>
       </div>
       <div className="m-2 mb-0 w-full rounded-md flex flex-row flex-wrap p-1 justify-between">
-        <h3 className={`mt-2 text-xl font-semibold mb-3`}>{title}</h3>
+        <h3 className={`mt-2 text-xl font-semibold`}>{title}</h3>
         <div className="transition-all duration-300">
           <a
             href={repo}
@@ -73,7 +73,7 @@ const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
           >
             <i
               title="Repo"
-              className="ri-github-fill p-2 text-4xl align-middle text-[var(--primary)] text-shadow-md/30 hover:text-shadow-md/70 transition-shadow duration-300 hover:text-[var(--secondary)] active:text-[var(--muted)]"
+              className="ri-github-fill p-2 text-3xl sm:text-4xl align-middle text-[var(--primary)] text-shadow-md/30 hover:text-shadow-md/70 transition-shadow duration-300 hover:text-[var(--secondary)] active:text-[var(--muted)]"
             ></i>
           </a>
 
@@ -85,7 +85,7 @@ const ProjectCard = ({ title, skills, carId, repo, blurb, url, images }) => {
           >
             <i
               title="App"
-              className="ri-window-fill p-2 text-4xl align-middle text-[var(--primary)] text-shadow-md/30 hover:text-shadow-md/70 transition-shadow duration-300 hover:text-[var(--secondary)] active:text-[var(--muted)]"
+              className="ri-window-fill p-2 text-3xl sm:text-4xl align-middle text-[var(--primary)] text-shadow-md/30 hover:text-shadow-md/70 transition-shadow duration-300 hover:text-[var(--secondary)] active:text-[var(--muted)]"
             ></i>
           </a>
         </div>

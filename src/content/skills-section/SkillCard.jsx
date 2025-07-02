@@ -2,10 +2,10 @@ const SkillCard = ({ title, skills, color, mobileFull = false }) => (
   <div
     className={`
       bg-[var(--bg2)] rounded-4xl sm:rounded-2xl sm:shadow-2xl mb-5
-      overflow-y-auto overflow-x-hidden shrink-0 w-full sm:w-30 lg:w-40 snap-center border-solid sm:border-none border-xl border-20 border-[var(--bg)]
+      overflow-y-auto overflow-x-hidden shrink-0 w-full sm:w-25 lg:w-40 snap-center border-solid sm:border-none border-xl border-20 border-[var(--bg)]
     `}
   >
-    <h3 className="text-2xl sm:text-2xl font-semibold mt-4">{title}</h3>
+    <h3 className="text-xl lg:text-2xl font-semibold mt-4">{title}</h3>
     <ul className="text-xs text-muted-foreground flex flex-col justify-around align-center gap-1 pb-10 h-9/10">
       {skills.map((skill, index) => (
         <div

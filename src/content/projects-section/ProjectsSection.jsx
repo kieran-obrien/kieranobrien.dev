@@ -10,8 +10,8 @@ import {
 
 export default function ProjectsSection() {
   return (
-    <div className="snap-start lg:h-screen w-full flex flex-col items-center justify-start px-5">
-      <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4">
+    <div className="w-full flex flex-col items-center justify-start px-5">
+      <h2 className="text-3xl sm:text-4xl font-bold font-[IBM_Plex_Mono] text-center my-4 lg:my-8">
         Projects
       </h2>
       <div className="grow-1 overflow-x-auto overflow-y-hidden scroll-smooth snap-x snap-mandatory w-full h-full max-w-3xl mb-5">

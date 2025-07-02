@@ -12,21 +12,19 @@ import ContactToast from "./content/ContactToast";
 
 function App() {
   return (
-    <div className="w-full overflow-x-hidden lg:snap-y snap-mandatory h-screen overflow-y-scroll">
-      <div className="snap-start lg:h-screen overflow-y-hidden">
+    <div className="w-full overflow-x-hidden bg-[var(--bg)]">
+      <div className="overflow-y-hidden flex flex-col items-center">
         <TypewriterHeading />
-        <br />
-        <HorizontalLine width="sm:w-xl" />
         <SocialIcons />
         <ThemeSwitcher />
         <br />
         <Hero />
       </div>
-      <HorizontalLine/>
+      <HorizontalLine />
       <SkillsSection />
-      <HorizontalLine/>
+      <HorizontalLine />
       <ProjectsSection />
-      <HorizontalLine/>
+      <HorizontalLine />
       <CertsSection />
       <ContactToast />
       <Footer />

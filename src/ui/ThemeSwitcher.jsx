@@ -18,7 +18,7 @@ const ThemeSwitcher = () => {
         onChange={switchTheme}
         value={theme}
       >
-        <option value="" disabled selected>
+        <option value="" disabled>
           Select a theme
         </option>
         <option value="theme-dracula">Dracula (Default)</option>

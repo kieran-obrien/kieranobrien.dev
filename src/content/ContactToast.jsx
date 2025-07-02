@@ -30,7 +30,7 @@ export default function ContactToast() {
           }`}
         >
           <div className="alert bg-[var(--primary)] text-[var(--bg)]">
-            <i class="ri-emotion-line text-2xl"></i>
+            <i className="ri-emotion-line text-2xl"></i>
             <span>
               Want to work with me? Reach out at:{" "}
               <a href="mailto:hello@kieranobrien.dev">hello@kieranobrien.dev</a>
