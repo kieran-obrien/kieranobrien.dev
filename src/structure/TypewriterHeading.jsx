@@ -2,14 +2,9 @@ import { useState, useEffect } from "react";
 
 const helloWorldTranslations = {
   English: "Hello, world!",
-  Chinese: "你好，世界！",
   Spanish: "¡Hola, mundo!",
   Portuguese: "Olá, mundo!",
-  Russian: "Привет, мир!",
-  Japanese: "こんにちは、世界！",
   German: "Hallo, Welt!",
-  // French: "Bonjour, le monde!",
-  Korean: "안녕하세요, 세계!",
   Italian: "Ciao, mondo!",
   Dutch: "Hallo, wereld!",
 };

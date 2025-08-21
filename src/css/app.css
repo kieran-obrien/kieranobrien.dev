@@ -1,6 +1,8 @@
 @import "tailwindcss";
-@plugin "daisyui";
-@import "./themes.css";
+@plugin "daisyui" {
+  themes: retro --default;
+}
+
 
 #root {
   max-width: 1280px;
@@ -14,6 +16,7 @@ body {
   overflow: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: mandatory;
+  font-family: VT323;
 }
 
 body {
@@ -21,10 +24,11 @@ body {
   color: var(--fg);
 }
 
-
+/*
 h1 {
   font-family: IBM Plex Mono;
 }
+*/
 
 .caret-blinking {
   animation: blink 0.5s linear infinite;
