@@ -1,5 +1,11 @@
 import SkillCard from "./SkillCard";
-import { langs, frontend, backend, tools, other } from "./Skills";
+import {
+  langs,
+  frontend,
+  backend,
+  tools,
+  other,
+} from "../stack-section/StackIcons";
 
 export default function SkillsSection() {
   return (
