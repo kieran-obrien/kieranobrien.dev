@@ -1,6 +1,6 @@
 export default function StudiesSection() {
   return (
-    <div className="my-20 flex flex-col gap-1">
+    <div className="mt-10 flex flex-col gap-1">
       <div className="divider divider-end before:bg-transparent xl:mx-80 text-xl">
         northcoders - software development with javascript bootcamp
       </div>

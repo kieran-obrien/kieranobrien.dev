@@ -1,10 +1,16 @@
-import HorizontalLine from "../content/HorizontalLine";
+import Divider from "../content/Divider";
+import ThemeSwitcher from "../ui/ThemeSwitcher";
 
 function Footer() {
   return (
-    <footer className="text-xs mt-4 w-full pb-30">
-      <HorizontalLine/>
-      <p className="mt-2">Kieran O'Brien © 2025</p>
+    <footer>
+      <Divider heading="" />
+      <div className="flex flex-col items-end justify-end xl:mx-80">
+        <ThemeSwitcher />
+        <div className="divider divider-end  text-xl before:bg-transparent after:bg-transparent">
+          k.o. © 2025
+        </div>
+      </div>
     </footer>
   );
 }

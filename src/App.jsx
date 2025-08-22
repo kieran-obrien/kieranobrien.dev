@@ -1,34 +1,16 @@
 import "./css/app.css";
-import HorizontalLine from "./content/HorizontalLine";
-import TypewriterHeading from "./structure/TypewriterHeading";
-import SocialIcons from "./ui/SocialIcons";
 import Divider from "./content/Divider";
-import CertsSection from "./content/certs-section/CertsSection";
-import AltProjectsSection from "./content/projects-section/AltProjectsSection";
-import { starstufSkills } from "./content/projects-section/ProjectSkills";
 import StackSection from "./content/stack-section/StackSection";
 import StudiesSection from "./content/studies-section/StudiesSection";
+import AltProjectsSection from "./content/projects-section/AltProjectsSection";
+import ThemeSwitcher from "./ui/ThemeSwitcher";
+import Footer from "./structure/Footer";
+import Header from "./structure/Header";
 
 function App() {
   return (
-    <div className="w-full overflow-x-hidden h-screen overflow-y-scroll mx-5">
-      <div className="overflow-y-hidden  flex flex-col items-center justify-center mt-10 mb-5">
-        <div className="mockup-code bg-neutral xl:mx-80">
-          <pre data-prefix="$">
-            <code>sudo apt get kieranobrien</code>
-          </pre>
-          <pre data-prefix="$">
-            <code>sudo apt install kieranobrien</code>
-          </pre>
-          <pre data-prefix=">" className="text-error">
-            <code>hiring new dev...</code>
-          </pre>
-          <pre data-prefix=">" className="text-success">
-            <code>Done, no regrets!</code>
-          </pre>
-        </div>
-        <SocialIcons />
-      </div>
+    <div className="w-full overflow-x-hidden h-screen overflow-y-scroll text-shadow-sm/5 p-5">
+      <Header />
       <Divider heading="me" />
       <div className="xl:mx-80">
         <p
@@ -46,11 +28,11 @@ function App() {
       </div>
       <Divider heading="stack" />
       <StackSection />
-      <Divider heading="studies" />
+      <Divider heading="work" />
+      <AltProjectsSection />
+      <Divider heading="study" />
       <StudiesSection />
-      {/*}
-      <Divider heading="projects" />
-      <AltProjectsSection skills={starstufSkills} /> */}
+      <Footer />
     </div>
   );
 }
