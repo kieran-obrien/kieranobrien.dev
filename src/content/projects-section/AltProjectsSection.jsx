@@ -1,6 +1,6 @@
 export default function AltProjectsSection() {
   return (
-    <div className="flex flex-col items-end">
+    <div className="flex flex-col items-end wrap text-right">
       <div className="my-5 text-xl flex gap-2">
         <div>
           <i title="CSS" className="ri-home-smile-line text-error text-2xl"></i>
