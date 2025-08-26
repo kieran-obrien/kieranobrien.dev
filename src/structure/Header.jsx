@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="mockup-code bg-neutral xl:mx-80">
+    <div className="mockup-code bg-neutral">
       <pre data-prefix="$">
         <code className="">sudo apt get kieranobrien</code>
       </pre>
